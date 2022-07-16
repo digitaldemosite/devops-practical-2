@@ -16,7 +16,7 @@ pipeline {
            steps {
               
                 sh 'docker build -t devopsclass:latest .' 
-                sh 'docker tag devopsclass manoj777/devopsclass:$BUILD_NUMBER'
+                sh 'docker tag devopsclass manojt777/devopsclass:$BUILD_NUMBER'
                
           }
         }
